@@ -100,5 +100,7 @@ ADCS configured
 
 
 
-[wkt03]
-Shell: Abuse trust account to have enumeration access, asreproasting the user to recover his password. The user is a member of 
+## wkt03
+user:svc_adcs
+
+Shell: Abuse trust account to have enumeration access, kerberoasting the user to recover his password. svc_adcs can modify cert template. Modify a template, and impersonate da, to take over the domain
